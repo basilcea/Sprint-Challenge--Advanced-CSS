@@ -179,11 +179,16 @@ p {
   justify-content: center;
   align-items: stretch;
 }
+@media (max-width: 500px) {
+  .navbar .navlinks {
+    width: 100%;
+  }
+}
 .navbar .navlinks a {
   text-decoration: none;
   color: #454A59;
   width: 25%;
-  padding: 2rem;
+  padding: 2rem 1rem;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -197,11 +202,24 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .header-image {
+  width: 100%;
+}
 .home .intro h2 {
   padding: 15px;
 }
+@media (max-width: 500px) {
+  .home .intro h2 {
+    padding-left: 2rem;
+  }
+}
 .home .intro p {
   padding: 0 15px;
+}
+@media (max-width: 500px) {
+  .home .intro p {
+    padding-left: 2rem;
+  }
 }
 .home .space-images {
   display: flex;
@@ -214,14 +232,38 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+@media (max-width: 500px) {
+  .home .space-images {
+    border-radius: 30px;
+  }
+  .home .space-images .sky,
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .space-images .blast {
+    width: 100%;
+    margin-left: 3em;
+    padding: 0.5em 1em;
+  }
+}
 .home .visit-planets {
   padding: 15px;
 }
 .home .visit-planets h3 {
   margin-top: 11px;
 }
+@media (max-width: 500px) {
+  .home .visit-planets h3 {
+    padding-left: 1rem;
+  }
+}
 .home .visit-planets p {
   margin-top: 13px;
+}
+@media (max-width: 500px) {
+  .home .visit-planets p {
+    padding-left: 1rem;
+  }
 }
 .home .walk {
   margin-top: 60px;
@@ -230,8 +272,20 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .home .walk {
+    flex-direction: column;
+    padding: 2rem 3rem;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 100%;
+    padding-top: 2rem;
+  }
 }
 .home .walk .walk-text h3 {
   margin-bottom: 10px;
@@ -240,7 +294,7 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  border-radius: 1em;
+  border-radius: 5px;
   background-color: #22283A;
   color: #F6F6F6;
   text-align: center;
@@ -249,8 +303,13 @@ footer {
   height: 4em;
   width: 50%;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+  }
+}
 .home .walk .walk-text .btn:hover {
-  border-radius: 1em;
+  border-radius: 5px;
   background-color: #5E6164;
   color: #22283A;
   text-align: center;
@@ -259,9 +318,21 @@ footer {
   height: 4em;
   width: 50%;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn:hover {
+    width: 100%;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    order: -1;
+    width: 100%;
+    margin-left: 0;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;
