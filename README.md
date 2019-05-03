@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+- An adaptive website uses fixed unit like PX while applying media queries at various breakpoints . On the otherhand a responsive  website uses like responsive units like %, vh ,vm and media queries and at various breakpoints, thus ensuring that the webpage design is ok at various screen sizes for various devices.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+- The mobile first approach for webpages as the name  implies involves building designing the website first with units for mobile view and then use media queries with the min-width property to scale up the webpage for tablets and desktop views.
+- On the other hand in the desktop first approach, you build the webpage first with units for the desktop view and  scale down using media queries and the max-width property for tablets and mobile views. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+- The default font-size of web browsers is 16px. Setting the html font-size to 62.5% sets the root font size to 10px and thus makes it easier to specify rem units as 1rem = 10px and 2rem =20px
+
 4. How would you describe preprocessing to someone new to CSS?
 
+- Preprocessing is the use of a more robust syntax that adds more functionality to CSS and makes CSS scalable. However all preprocessors use a compiler to compile the syntax to normal CSS which browers can interpret.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+- Use of parametric mixins
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,9 +61,9 @@ Follow these steps to set up your project:
 
 ### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
