@@ -339,3 +339,41 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.home .magazine {
+  padding: 15px;
+  background-color: #454A59;
+}
+.home .magazine p {
+  color: black;
+}
+.home .magazine h3 {
+  text-align: center;
+}
+.home .magazine form {
+  margin: 5% 20%;
+}
+.home .magazine input {
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid #81848E;
+}
+.home .magazine input:hover {
+  border: none;
+  border-bottom: 1px solid #23293B;
+}
+.home .magazine input[type='submit'] {
+  margin: 0.5rem;
+  outline: none;
+  height: 10%;
+  width: 96%;
+  border: none;
+  border-radius: 5px;
+  color: #F1F1F1;
+  font-size: 1.5rem;
+  background-color: #22283A;
+}
+.home .magazine input[type='submit']:hover {
+  background-color: #81848E;
+  color: black;
+}
