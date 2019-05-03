@@ -363,10 +363,10 @@ footer {
   border-bottom: 1px solid #23293B;
 }
 .home .magazine input[type='submit'] {
-  margin: 0.5rem;
   outline: none;
+  margin: 2em 0;
   height: 10%;
-  width: 96%;
+  width: 100%;
   border: none;
   border-radius: 5px;
   color: #F1F1F1;
